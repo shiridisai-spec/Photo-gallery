@@ -51,7 +51,7 @@ const App = () => {
   return (
     <div style={{ padding: "16px" }}>
       <Typography variant="h4" align="center" gutterBottom>
-        High-Quality Photo Gallery
+        Photo Gallery
       </Typography>
       <Grid container spacing={0}>
         {displayedPhotos.map((photo) => (
